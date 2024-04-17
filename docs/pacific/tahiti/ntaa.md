@@ -20,7 +20,7 @@ The Tahiti CTR/D follows the lateral boundaries as shown below from `SFC` to `A0
 
 <figure markdown>
   ![Tahiti Control Zone](./assets/ntaa-airspace.png) 
-  <figcaption>Tahiti Control Zone (CTR/D)</figcaption>
+  <figcaption>The Tahiti Control Zone (CTR/D). The small sector to the west is the Moorea Control Zone (CTR/D).</figcaption>
 </figure>
 
 ## Areas of Responsibility
@@ -34,76 +34,48 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 
 ### Transfer of Control points
 
-| Transfer Flow      | Requirements                                                                         | Notes                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |                                                                                  |
-| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
-| Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
-| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
-| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
+| Transfer Flow      | Requirements                                                                         | Notes |
+| ------------------ | ------------------------------------------------------------------------------------ | ----- |
+| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |       |
+| Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |       |
+| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |       |
+| Tower -> Ground    | Once clear of the active runway.                                                     |       |
 
 ## Control Positions
+### Ground
 
-### Clearance Delivery
+#### Delivery
 
-Clearances shall be issued by the Delivery position, and may be given via DCL or voice.
+Clearances shall be issued by the Ground position, and are given via voice.
 
-#### International Traffic with a domestic SID transition
-
-Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issued a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
+As Tahiti is an airport administered by the French
 
 !!! example 
-    For example, LAN800 is a service between NTAA and SCEL, usually filing the following routing -  
-    `H372 RO H328 GS DCT GOKAG ...`. 
     
-    This aircraft would be issued either the `POLIS #Q/TULMI` or the `LEVRA #P/TULMI` departures depending on active runway.
 
-### Ground
+
 
 #### Pushback
 
-Pushback and start up clearances are managed by the Ground Controller. Controllers should make use of the "tail facing" instruction to ensure that aircraft do not block apron entry and exit points. 
+Pushback and start up clearances are managed by the Ground Controller. 
 
-#### Domestic 
-
-Aircraft pushing from Gates 20 to 22 shall push either onto `D1/D2` or `B`, depending on other traffic. Aircraft on Gates 28 to 33 shall be pushed with the nose facing towards the active runway.
-
-For Gates 28 to 33, the Controller shall ensure that `B4`, `B5` and `B6` are kept clear for other aircraft, which can be ensured through two methods:
-
-- Instructing the aircraft to have their tail facing a certain way, or
-- Instructing the aircraft to push clear of a taxiway.
-
-Aircraft on the `C5` apron shall be instructed to push and start at their discretion, as it is not a part of the manoeuvring area but still requires a clearance.
-
-#### International 
-
-All aircraft pushing from the International apron shall be given a tail facing instruction, and *may* be given a start location.
-
-!!! example "International Apron: Push and Start"
-    **Tahiti Ground**: *"ANZ26, cleared push and start with the tail facing North"*
-
-!!! info
-    The start instruction is only utilised in the real-world to ensure that the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
+Due to the lack of a parallel taxi way heavy aircraft will not be issued push or start instructions if the runway is in use by aircraft who are parking on the south ramp.
 
 #### Taxiing 
 
-As the runway utilises high-speed exits, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
+Holding points `C1` and `B1` allow aircraft to be held clear of taxiway `S`, allowing aircraft to taxi on the South Ramp while allowing aircraft to vacate the runway.
 
-When Runway 23L is in operation aircraft will vacate at either `A4`, `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
-
-When RWY 05R is active any domestic aircraft shall be given taxi instructions via `B` and `L`. Taxiway `M` may be utilized by controllers in order to get aircraft past any queues at holding point `A9`.
 
 #### Use of Holding Points
 
-Departures may occur from any runway intersection, providing that it does not interfere with the use of any high-speed exits. Controllers may apply the following rules without coordination from the Pilot:
- 
-| Type        |  Runway 23L   | Runway 05R |
-| ----------- | :-----------: | :--------: |
-| Large Jets  | `A1` or `A1A` |   `A10`    |
-| Medium Jets |     `A2`      |    `A9`    |
-| Turboprops  | `A2` or `A3A` |    `A9`    |
+Four runway holding points are avalible at Tahiti, and are as follows:
 
-!!! important "Usage of the A3 and A8 Holding Points"
-    The `A3` and `A8` holds are not to be used, as Pilots cannot visually check the approaches are clear before entering the runway.
+| Holding Point | Usage                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------- | 
+| `S`           |Used for aircraft departing from the South Ramp.                                         |
+| `G`           |Used for aircraft departing from the Golf Ramp.                                           |
+| `N`           |Used for aircraft departing from the North Ramp.                                          |
+| `W`           |Used for aircraft departing from the Whiskey Ramp.                                       |
 
 ### Tower
 
