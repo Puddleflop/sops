@@ -13,7 +13,7 @@
 
 ## Airspace
 
-TAH covers all airspace within 200 NM of the `TAF VOR` below `FL195`, excluding the TAHITI TMA 1 and 2 (Class D) below `FL165` where a radar service is provided by A-TAH.
+TAH covers all airspace within 200 NM of the `TAF VOR` below `FL195`, excluding the TAHITI TMA 1 and 2 (Class D) below `FL195` where a radar service is provided by A-TAH.
 
 TAH provides a radar enroute/approach service within the ILES SOUS LEVNT TMA (Class D) above `A015`. Otherwise TAH provides a procedural service above `FL045` (Class E). 
 

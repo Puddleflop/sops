@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 !!! note "Tahiti Procedures"
-    The A-TAH procedures build upon information already contained in the [NZAA Aerodrome Procedures](../aerodromes/Class-C/nzaa.md), and any Controller logged on to ATMA shall be familiar with those procedures.
+    The A-TAH procedures build upon information already contained in the [NTAA Aerodrome Procedures](./ntaa.md), and any Controller logged on to ATMA shall be familiar with those procedures.
 
 ## Positions
 
@@ -20,17 +20,19 @@ The Tahiti CTA/D follows the lateral and vertical boundaries as shown below.
 
 <figure markdown>
   ![Tahiti TMA](./assets/ntaa-cta.png) 
-  <figcaption>Auckland TMA (CTA/C)</figcaption>
+  <figcaption>Tahiti TMA (CTA/D)</figcaption>
 </figure>
 
 ### Transfer of Control Points
 
-| Transfer Flow       | Requirements                                                             | Notes                                                                                                                                      |
-| ------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Tower -> Approach   | Once the aircraft becomes airborne off the runway                        | Tower shall instruct all aircraft to contact ATMA airborne                                                                                 |
-| Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of ATMA | Aircraft may also be handed off when clear of all conflicts, provided the next sector accepts the early handover.                          |
-| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA       | Aircraft may not always be cleared to `A110` when handed to ATMA. Aircraft may be handed off early, provided that ATMA is happy to accept. |
-| Approach -> Tower   | Once established on approach, or within AA TWR's CTA/C.                  | Aircraft cleared for a visual approach may be cleared to contact sooner for separation against circuit traffic.                            |
+| Transfer Flow       | Requirements                                                                | Notes                                                                                                                                      |
+| ------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Tower -> Approach   | Once the aircraft becomes airborne off the runway                           | Tower shall instruct all aircraft to contact A-TAH prior to passing `A025`.                                                                |
+| Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of the TMA |   |
+| Approach -> Radio   | Once the aircraft are approaching the lateral or vertical bounds of the TMA |   |
+| Radio -> Approach   | Aircraft is approaching the vertical and lateral bounds of the TMA          |   |
+| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA          |   |
+| Approach -> Tower   | Once established on approach, or within AA TWR's CTA/C.                     |   |
 
 ## Departures
 
