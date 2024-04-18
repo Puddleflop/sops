@@ -46,25 +46,22 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 
 #### Delivery
 
-Clearances shall be issued by the Ground position, and are given via voice.
+Clearances shall be issued by the Ground position and are given via voice.
 
-As Tahiti is an airport administered by the French
+As Tahiti is administered by the French there are a few differences in the clearances.
 
-!!! example 
-    
-
-
+!!! example "Clearance Example to Auckland"
+    **Tahiti Ground**: *"THT101A, Cleared to Auckland via Flight Plan Route, Climb and Maintian 5000ft, BEBIG 4W departure RWY 04 DCT TEKOT, Squawk 5021"* 
 
 #### Pushback
 
 Pushback and start up clearances are managed by the Ground Controller. 
 
-Due to the lack of a parallel taxi way heavy aircraft will not be issued push or start instructions if the runway is in use by aircraft who are parking on the south ramp.
+Due to the lack of a parallel taxi way heavy aircraft will not be issued push or start instructions if the runway is in use by aircraft who are either conducting an instrument approach or parking on the south ramp.
 
 #### Taxiing 
 
 Holding points `C1` and `B1` allow aircraft to be held clear of taxiway `S`, allowing aircraft to taxi on the South Ramp while allowing aircraft to vacate the runway.
-
 
 #### Use of Holding Points
 
@@ -79,19 +76,32 @@ Four runway holding points are avalible at Tahiti, and are as follows:
 
 ### Tower
 
-The Tower shall ensure that all VFR traffic within the Tahiti CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
+The Tower shall ensure that all VFR traffic within the Tahiti CTR/D does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
-Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
-
-Aircraft that have been cleared to operate within the North or South sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) departures.
+Unless established within the aerodrome circuit, VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
 ### Departures
 
 Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations). 
 
-Some departures have immediate divergent turns once the aircraft passes `A005`, taking the aircraft away from the centreline, allowing for another aircraft to follow soon after.
-
 #### SID Assignment
+
+All aircraft must leave the TMA either via a published airway, or via a boundary fix. A series of transitions are published to allow aircraft to transfer from the published SIDs to the enroute environment.
+| Runway | Enroute Fixes                              | Procedure     | Route                 | Notes  |
+| ------ | ------------------------------------------ | ------------- | --------------------- | ------ |
+| 04     | `ISTAM`, `HAO`,`NANUE`,`VETEA`,`TATIA`     | `BENKO #E`    | `BENKO DCT`           |        |
+| 04     | `MIKAT`, `RAN`,`PAERE`,`TIAMA`             | `IKELO #E`    | `IKELO DCT`           |        |
+| 04     | `ATURE`, `MIKOP`,`OPERU`,`RT`,`TB`,`TAPAP` | `PASTI #E`    | `PASTI DCT`           |        |
+| 04     | `MAITO`, `SABUB`,`TEKOT`                   | `PASTI #E`    | `PASTI DCT ONIDO DCT` |        |
+| 04     | `MEGOG`                                    | `VAITE #E`    | `VAITE DCT`           |        |
+
+| Runway | Enroute Fixes                              | Procedure     | Route                           | Notes  |
+| ------ | ------------------------------------------ | ------------- | ------------------------------- | ------ |
+| 22     | `MAITO`,`RT`,`TB`, `SABUB`,`TEKOT`         | `BEBIG #W`    | `BENKO DCT`                     |        |
+| 22     | `ISTAM`,`MIKAT`, `RAN`,`PAERE`,`TIAMA`     | `IKELO #W`    | `IKELO DCT`                     |        |
+| 22     | `ATURE`,`MIKOP`,`OPERU`,`TAPAP`,`TATIA`    | `ONIDO #W`    | `ONIDO DCT`                     |        |
+| 22     | `HAO`,`PEBRO`,`VETEA`                      | `ONIDO #W`    | `ONIDO DCT TATIA DCT VETEA DCT` |        |
+| 22     | `MEGOG`                                    | `VAITE #W`    | `BENKO DCT`                     |        |
 
 International SIDs are straight-forward, in that all of them have a shallow climb gradient, suitable for most aircraft types. The Controller shall issue the SID that is suggested by their Controller Client.
 
