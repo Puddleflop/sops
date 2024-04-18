@@ -1,35 +1,25 @@
 ---
-  title: Auckland Terminal Area 
+  title: Tahiti Terminal Area 
 ---
 
 --8<-- "includes/abbreviations.md"
 
-!!! note "Auckland Procedures"
-    The ATMA procedures build upon information already contained in the [NZAA Aerodrome Procedures](../aerodromes/Class-C/nzaa.md), and any Controller logged on to ATMA shall be familiar with those procedures.
+!!! note "Tahiti Procedures"
+    The A-TAH procedures build upon information already contained in the [NZAA Aerodrome Procedures](../aerodromes/Class-C/nzaa.md), and any Controller logged on to ATMA shall be familiar with those procedures.
 
 ## Positions
 
-| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage   |
-| ------------- | --------- | ----------------- | --------- | -------- | ------- |
-| Auckland TMA  | ATMA      | Auckland Approach | 124.300   | NZAA_APP | Primary |
-
-
-### Event Only Positions
-
-!!! Danger
-    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
-
-| Position Name       | Shortcode | Callsign          | Frequency | Login ID | Usage                       |
-| ------------------- | --------- | ----------------- | --------- | -------- | --------------------------- |
-| Auckland Departures | ADEP      | Auckland Approach | 129.600   | NZAA_DEP | Events - Traffic Management |
+| Position Name | Shortcode | Callsign        | Frequency | Login ID | Usage   |
+| ------------- | --------- | --------------- | --------- | -------- | ------- |
+| Tahiti TMA    | A-TAH     | Tahiti Approach | 121.300   | NTAA_APP | Primary |
 
 ## Airspace
 
-The Auckland CTA/C follows the lateral and vertical boundaries as shown below. 
+The Tahiti CTA/D follows the lateral and vertical boundaries as shown below. 
 
 
 <figure markdown>
-  ![Auckland TMA](./assets/aatma-airspace.png) 
+  ![Tahiti TMA](./assets/ntaa-cta.png) 
   <figcaption>Auckland TMA (CTA/C)</figcaption>
 </figure>
 

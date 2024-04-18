@@ -46,4 +46,6 @@
 *[RNP]: Required Navigation Performance
 *[5LNC]: 5 Letter Name Code (an issued and named waypoint by ICAO)
 *[RTF]: Radio Telephony
+*[TAH]: Tahiti Control
+*[NTTT]: Tahiti Radio (Oceanic)
 <!-- ADD Aerodrome Codes -->

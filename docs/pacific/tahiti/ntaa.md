@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
-| ------------- | --------- | ----------------- | --------- | -------- | --------- |
-| Tahiti SMC  | GAA       | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
-| Tahiti ADC  | TAA       | Tahiti Tower    | 118.700   | NTAA_TWR | Primary   |
-| Tahiti TMA  | ATMA      | Tahiti Approach | 124.300   | NTAA_APP | Primary   |
+| Position Name | Shortcode | Callsign        | Frequency | Login ID | Usage     |
+| ------------- | --------- | --------------- | --------- | -------- | --------- |
+| Tahiti SMC    | G-TAH     | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
+| Tahiti ADC    | T-TAH     | Tahiti Tower    | 118.100   | NTAA_TWR | Primary   |
+| Tahiti TMA    | A-TAH     | Tahiti Approach | 121.300   | NTAA_APP | Primary   |
 
 
 ## Airspace
