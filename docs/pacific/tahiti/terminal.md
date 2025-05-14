@@ -25,14 +25,14 @@ The Tahiti CTA/D follows the lateral and vertical boundaries as shown below.
 
 ### Transfer of Control Points
 
-| Transfer Flow       | Requirements                                                                | Notes                                                                                                                                      |
-| ------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Tower -> Approach   | Once the aircraft becomes airborne off the runway                           | Tower shall instruct all aircraft to contact A-TAH prior to passing `A025`.                                                                |
-| Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of the TMA |   |
-| Approach -> Radio   | Once the aircraft are approaching the lateral or vertical bounds of the TMA |   |
-| Radio -> Approach   | Aircraft is approaching the vertical and lateral bounds of the TMA          |   |
-| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA          |   |
-| Approach -> Tower   | Once established on approach, or within AA TWR's CTA/C.                     |   |
+| Transfer Flow       | Requirements                                                       | Notes                                                                       |
+| ------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Tower -> Approach   | Once the aircraft becomes airborne off the runway                  | Tower shall instruct all aircraft to contact A-TAH prior to passing `A025`. |
+| Approach -> Control | Once the aircraft are approaching the lateral bounds of the TMA    |                                                                             |
+| Approach -> Radio   | Once the aircraft are approaching the vertical bounds of the TMA   |                                                                             |
+| Radio -> Approach   | Aircraft is approaching the vertical and lateral bounds of the TMA |                                                                             |
+| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA |                                                                             |
+| Approach -> Tower   | Once established on approach, or within AA TWR's CTA/C.            |                                                                             |
 
 ## Departures
 

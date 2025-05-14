@@ -49,5 +49,8 @@
 *[RTF]: Radio Telephony
 *[TAH]: Tahiti Control
 *[NTTT]: Tahiti Radio (Oceanic)
+*[A-TAH] : Tahiti Approach
+*[G-TAH] : Tahiti Ground
+*[T-TAH] : Tahiti Tower
 *[DMAPS]: Divergent Missed Approach Procedures System
 <!-- ADD Aerodrome Codes -->

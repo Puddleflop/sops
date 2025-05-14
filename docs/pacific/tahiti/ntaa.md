@@ -32,12 +32,12 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 
 ### Transfer of Control points
 
-| Transfer Flow      | Requirements                                                                         | Notes |
-| ------------------ | ------------------------------------------------------------------------------------ | ----- |
-| Ground -> Tower    | Before arriving at their assigned hold, once clear of other traffic.                 |       |
-| Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |       |
-| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |       |
-| Tower -> Ground    | Once clear of the active runway.                                                     |       |
+| Transfer Flow     | Requirements                                                                         | Notes |
+| ----------------- | ------------------------------------------------------------------------------------ | ----- |
+| Ground -> Tower   | Before arriving at their assigned hold, once clear of other traffic.                 |       |
+| Tower -> Approach | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |       |
+| Approach -> Tower | When established on an instrument final, or if on an RNP approach, overhead the IAF. |       |
+| Tower -> Ground   | Once clear of the active runway.                                                     |       |
 
 ## Control Positions
 ### Ground
@@ -49,7 +49,7 @@ Clearances shall be issued by the Ground position and are given via voice.
 As Tahiti is administered by the French, there are a few differences in the clearances. All SIDS have initial climb clearances. 
 
 !!! example "Clearance Example to Auckland"
-    **Tahiti Ground**: *"THT101A, Cleared to Auckland via Flight Plan Route, Climb and Maintian 5000ft, BEBIG 4W departure RWY 04 DCT TEKOT, Squawk 5021"* 
+    **Tahiti Ground**: *"THT101A, Cleared to Auckland via Flight Plan Route, Climb and Maintain 5000ft, BEBIG 4W departure RWY 04 DCT TEKOT, Squawk 5021"* 
 
 #### Pushback
 
@@ -65,12 +65,12 @@ Holding points `C1` and `B1` allow aircraft to be held clear of taxiway `S`, all
 
 Four runway holding points are available at Tahiti and are as follows:
 
-| Holding Point | Usage                                                                                   |
-| ------------- | --------------------------------------------------------------------------------------- | 
-| `S`           | Used for aircraft departing from the South Ramp.                                        |
-| `G`           | Used for aircraft departing from the Golf Ramp.                                         |
-| `N`           | Used for aircraft departing from the North Ramp.                                        |
-| `W`           | Used for aircraft departing from the Whiskey Ramp.                                      |
+| Holding Point | Usage                                              |
+| ------------- | -------------------------------------------------- |
+| `S`           | Used for aircraft departing from the South Ramp.   |
+| `G`           | Used for aircraft departing from the Golf Ramp.    |
+| `N`           | Used for aircraft departing from the North Ramp.   |
+| `W`           | Used for aircraft departing from the Whiskey Ramp. |
 
 ### Tower
 
@@ -108,27 +108,25 @@ Tahiti has both conventional and RNAV departures. The conventional departures ar
 
 A series of transitions are published to allow aircraft to transfer from the published SIDs to the oceanic enroute environment.
 
-| Runway | Enroute Fixes                                  | Procedure     | Route                 | Notes                                               |
-| ------ | ---------------------------------------------- | ------------- | --------------------- | --------------------------------------------------- |
-| 04     | `ISTAM`, `HAO`, `NANUE`, `VETEA`, `TATIA`      | `BENKO #E`    | `BENKO DCT`           | Flights departing to the east                       |
-| 04     | `MIKAT`, `RAN`,`PAERE`,`TIAMA`                 | `IKELO #E`    | `IKELO DCT`           | Flights departing to the north                      |
-| 04     | `ATURE`, `MIKOP`, `OPERU`, `RT`, `TB`, `TAPAP` | `PASTI #E`    | `PASTI DCT`           | Flights departing to the south and west             |
-| 04     | `MAITO`, `SABUB`, `TEKOT`                      | `PASTI #E`    | `PASTI DCT ONIDO DCT` | Flights departing to the south-west                 |
-| 04     | `MEGOG`, `VAITE`                               | `VAITE #E`    | `VAITE DCT`           | Flights to the ILES SOUS LE VENT TMA and north-west |
+| Runway | Enroute Fixes                                  | Procedure  | Route                 | Notes                                               |
+| ------ | ---------------------------------------------- | ---------- | --------------------- | --------------------------------------------------- |
+| 04     | `ISTAM`, `HAO`, `NANUE`, `VETEA`, `TATIA`      | `BENKO #E` | `BENKO DCT`           | Flights departing to the east                       |
+| 04     | `MIKAT`, `RAN`,`PAERE`,`TIAMA`                 | `IKELO #E` | `IKELO DCT`           | Flights departing to the north                      |
+| 04     | `ATURE`, `MIKOP`, `OPERU`, `RT`, `TB`, `TAPAP` | `PASTI #E` | `PASTI DCT`           | Flights departing to the south and west             |
+| 04     | `MAITO`, `SABUB`, `TEKOT`                      | `PASTI #E` | `PASTI DCT ONIDO DCT` | Flights departing to the south-west                 |
+| 04     | `MEGOG`, `VAITE`                               | `VAITE #E` | `VAITE DCT`           | Flights to the ILES SOUS LE VENT TMA and north-west |
 
-| Runway | Enroute Fixes                               | Procedure     | Route                           | Notes                                               |
-| ------ | ------------------------------------------- | ------------- | ------------------------------- | --------------------------------------------------- |
-| 22     | `MAITO`, `RT`, `TB`, `SABUB`, `TEKOT`       | `BEBIG #W`    | `BEBIG DCT`                     | Flights departing to the south and south west       |
-| 22     | `ISTAM`, `MIKAT`, `RAN`, `PAERE`, `TIAMA`   | `IKELO #W`    | `IKELO DCT`                     | Flights departing to the north                      |
-| 22     | `ATURE`, `MIKOP`, `OPERU`, `TAPAP`, `TATIA` | `ONIDO #W`    | `ONIDO DCT`                     | Flights departing to the west                       |
-| 22     | `HAO`, `PEBRO`, `VETEA`                     | `ONIDO #W`    | `ONIDO DCT TATIA DCT VETEA DCT` | Flights departing to the east                       |
-| 22     | `MEGOG`                                     | `VAITE #W`    | `VAITE DCT`                     | Flights to the ILES SOUS LE VENT TMA and north west |
+| Runway | Enroute Fixes                               | Procedure  | Route                           | Notes                                               |
+| ------ | ------------------------------------------- | ---------- | ------------------------------- | --------------------------------------------------- |
+| 22     | `MAITO`, `RT`, `TB`, `SABUB`, `TEKOT`       | `BEBIG #W` | `BEBIG DCT`                     | Flights departing to the south and south west       |
+| 22     | `ISTAM`, `MIKAT`, `RAN`, `PAERE`, `TIAMA`   | `IKELO #W` | `IKELO DCT`                     | Flights departing to the north                      |
+| 22     | `ATURE`, `MIKOP`, `OPERU`, `TAPAP`, `TATIA` | `ONIDO #W` | `ONIDO DCT`                     | Flights departing to the west                       |
+| 22     | `HAO`, `PEBRO`, `VETEA`                     | `ONIDO #W` | `ONIDO DCT TATIA DCT VETEA DCT` | Flights departing to the east                       |
+| 22     | `MEGOG`                                     | `VAITE #W` | `VAITE DCT`                     | Flights to the ILES SOUS LE VENT TMA and north west |
 
 ## Moorea (NTTM) Procedures
 
 When TNTTM is off watch, T-TAH inherits the Moorea CTR/D and provides a Tower service to the field.
 
 ## VFR Procedures
-
-
 
